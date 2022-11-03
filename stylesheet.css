@@ -1,0 +1,94 @@
+a{
+  color: inherit;
+  text-decoration: none;
+}
+ul{
+   list-style: none;
+}
+
+.blog{
+   margin: 3rem 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+   .header{
+      text-align: center;
+   }
+   .header1{
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 300;
+      letter-spacing: .2px;
+      text-transform: uppercase;
+   }
+   .header2{
+      margin-top: .3rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+   }
+   .header2Span{
+      font-weight: 400;
+      font-size: 1.25rem;
+   }
+   .slider{
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center
+   }
+   .post{
+      margin: 3rem 1rem;
+      width: 25%;
+      -webkit-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
+      -moz-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
+      box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
+   }
+   .topImg{
+      max-width: 100%;
+   }
+   .content{
+      padding: .8rem;
+   }
+   .preview{
+      font-size: .95rem;
+      font-weight: 300;
+   }
+   .title{
+      margin-top: 0;
+      font-size: 1.4rem;
+   }
+   .intro{
+      line-height: 1.5;
+   }
+   .info{
+      font-weight: 300;
+   }
+   .author{
+      font-size: .9rem;
+   }
+   .date{
+      font-size: .85rem;
+   }
+
+   .counter{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+   }
+   .counterItem{
+      height: 20px;
+      width: 20px;
+      margin: .5rem;
+      background-color: lightgray;
+      border: 1px solid lightgray;
+      border-radius: 25px;
+  
+   }
+   .counterItem-active{
+      border: 1px solid lightblue;
+      background-color: lightblue;
+   }
+
